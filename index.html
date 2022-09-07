@@ -10,139 +10,146 @@
 </head>
 
 <body>
-  <main>
-    <header class="header">
-      <div class="container">
+  <div class="header-section">
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
         <div class="logo">
+          <img src="./public/logo.png" alt="logo icon">
         </div>
         <nav class="header__nav">
           <ul class="nav__list">
-            <li class="nav__item">Gallery</li>
-            <li class="nav__item">Prices for services</li>
-            <li class="nav__item">About us</li>
-            <li class="nav__item">Contact</li>
+            <li class="nav__item"><a href="#" class="nav__link">Gallery</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Prices for services</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About us</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="hero">
-      <div class="container">
-        <div class="hero__content">
-          <h1>SOLID WOOD PRODUCTS</h1>
-          <p>Oak, beech, ash from 1700 CZK per m3</p>
-          <button class="hero__btn btn">
-            btn
-          </button>
+  <section class="hero section big-section">
+    <div class="section-container">
+      <div class="hero-conteiner">
+      <div class="hero__content">
+        <h1 class="hero-title">SOLID <br>WOOD <br>PRODUCTS</h1>
+        <p>Oak, beech, ash from <br>1700 CZK per m3</p>
+      </div>
+      <button class="hero__btn btn">
+        Order
+      </button>
+    </div>
+      <div class="hero__images">
+        <div class="col col1">
+          <img src="./public/hero/image.png" alt="1" class="hero__img small-image" aria-hidden="true">
         </div>
-        <div class="hero__images">
-          <img src="./public/img1.jpg" alt="" class="hero__img small-image" aria-hidden="true">
-          <img src="./public/img2.jpg" alt="" class="hero__img small-image" aria-hidden="true">
-          <img src="./public/img3.jpg" alt="" class="hero__img small-image" aria-hidden="true">
+        <div class="col col2">
+          <img src="./public/hero/image(1).png" alt="2" class="hero__img small-image" aria-hidden="true">
+          <img src="./public/hero/image(2).png" alt="3" class="hero__img small-image" aria-hidden="true">
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <main class="main">
+
+    <section class="materials section">
+      <h1>THE WOOD WE<br> WORK WITH</h1>
+      <div class="materials__grid">
+        <div class="materials__grid-item">
+          <figure>
+            <img src="./public/materials/pale-oak-wood-texture-design-background 1.png" alt="oak image" class="materials__img small-image">
+            <figcaption>
+              <h2>Oak</h2>
+            </figcaption>
+            <ul class="materials__list">
+              <li class="materials__list-item check-mark">Durability</li>
+              <li class="materials__list-item check-mark">Beautiful texture</li>
+              <li class="materials__list-item check-mark">Water resistance</li>
+              <li class="materials__list-item cross-mark">Expensive</li>
+            </ul>
+          </figure>
+        </div>
+        <div class="materials__grid-item">
+          <figure>
+            <img src="./public/materials/wood-texture-design-decoration 1.png" alt="buk image" class="materials__img small-image">
+            <figcaption>
+              <h2>Buk</h2>
+            </figcaption>
+            <ul class="materials__list">
+              <li class="materials__list-item check-mark">Durability</li>
+              <li class="materials__list-item cross-mark">Hard to handle</li>
+            </ul>
+          </figure>
+        </div>
+        <div class="materials__grid-item">
+          <figure>
+            <img src="./public/materials/old-wood-grain-background 2.png" alt="ash image" class="materials__img small-image">
+            <figcaption>
+              <h2>Ash</h2>
+            </figcaption>
+            <ul class="materials__list">
+              <li class="materials__list-item check-mark">Durability</li>
+              <li class="materials__list-item cross-mark">Hard to handle</li>
+            </ul>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="materials">
-      <div class="container">
-        <h1>THE WOOD WE WORK WITH</h1>
-        <div class="materials__grid">
-          <div class="materials__grid-item">
-            <figure>
-              <img src="./public/materials/oak.jpg" alt="oak image" class="materials__img small-image">
-              <figcaption>
-                <h2>Oak</h2>
-              </figcaption>
-              <ul class="materials__list">
-                <li class="materials__list-item">Durability</li>
-                <li class="materials__list-item">Beautiful texture</li>
-                <li class="materials__list-item">Water resistance</li>
-                <li class="materials__list-item">Expensive</li>
-              </ul>
-            </figure>
-          </div>
-          <div class="materials__grid-item">
-            <figure>
-              <img src="./public/materials/buk.jpg" alt="buk image" class="materials__img small-image">
-              <figcaption>
-                <h2>Buk</h2>
-              </figcaption>
-              <ul class="materials__list">
-                <li class="materials__list-item">Durability</li>
-                <li class="materials__list-item">Hard to handle</li>
-              </ul>
-            </figure>
-          </div>
-          <div class="materials__grid-item">
-            <figure>
-              <img src="./public/materials/ash.jpg" alt="ash image" class="materials__img small-image">
-              <figcaption>
-                <h2>Ash</h2>
-              </figcaption>
-              <ul class="materials__list">
-                <li class="materials__list-item">Durability</li>
-                <li class="materials__list-item">Hard to handle</li>
-              </ul>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="our-work">
-      <div class="container">
+    <section class="our-work section">
         <h1>OUR WORK</h1>
         <div class="gallery">
           <img src="./public/gallery/image1.jpg" alt="our work image">
         </div>
-      </div>
     </section>
 
-    <section class="advantages">
-      <div class="container">
-        <h1>ADVANTAGES WORKING WITH US</h1>
-        <div class="advantages-content">
-          <div class="advantages-content__img">
-            <img src="./public/advantages/image.jpg" alt="" aria-hidden="true">
-          </div>
-          <div class="advantages-content__text">
-            <p>In-house carpentry production</p>
-            <p>We only treat wood with environmentally friendly and safe products</p>
-            <p>Prices from the manufacturer, no extra charges</p>
-          </div>
+    <section class="advantages section">
+      <h1>ADVANTAGES WORKING WITH US</h1>
+      <div class="advantages-content">
+        <div class="advantages-content__img">
+          <img src="./public/advantages/image.jpg" alt="4" aria-hidden="true">
         </div>
-        <button class="btn">btn</button>
+        <div class="advantages-content__text">
+          <p>In-house carpentry production</p>
+          <p>We only treat wood with environmentally friendly and safe products</p>
+          <p>Prices from the manufacturer, no extra charges</p>
+        </div>
       </div>
+      <button class="btn btn_advantages">Receive a consultation</button>
     </section>
 
-    <section class="about-us">
-      <div class="container">
+    <section class="section big-section  big-section_left">
+      <div class="section-container section-container_left about-us">
         <h1>ABOUT US</h1>
         <div class="about-us__text">
           <p>
-            BIO CWT - We manufacture solid wood products according to individual
+            <b>BIO CWT</b> - We manufacture solid wood products according to individual
             drawings. We make chairs, armchairs, wardrobes, beds and much more in
             our own workshop, equipped with all the necessary industrial equipment.
           </p>
         </div>
         <div class="about-us__images">
-          <img src="./public/about-us/image1.jpg" alt="" aria-hidden="true">
+          <img src="./public/about-us/image1.jpg" alt="5" aria-hidden="true">
         </div>
       </div>
     </section>
 
-    <section class="questions">
-      <div class="container">
+    <section class="questions section">
+      <div class="questions__container">
         <h1>ANY QUESTIONS?</h1>
-        <div class="questions__form">
+        <div class="questions__col">
           <form action="#" class="questions__form">
             <input type="text" class="questions__input" name="name" placeholder="Your name">
             <input type="text" class="questions__input" name="tel" placeholder="Your telephone number">
-            <input type="text" class="questions__input questions__input_height" name="question" placeholder="Your question">
+            <textarea type="text" class="questions__input questions__input_height" name="question"
+              placeholder="Your question"></textarea>
             <button class="btn" id="question-btn">Send</button>
           </form>
         </div>
-        <div class="questions__text">
+        <div class="questions__text questions__col">
           <p class="right">
             Write to us and we will be sure to answer all your questions and give you a
             comprehensive consultation.
@@ -152,22 +159,26 @@
     </section>
   </main>
 
+  <hr>
+
   <footer class="footer">
     <div class="container">
-      <div class="footer__logo">
+      <div class="footer__content">
+        <div class="logo">
+          <img src="./publick/logo.png" alt="logo icon">
+        </div>
 
-      </div>
-
-      <div class="tel">
-        <img src="./public/telephone.png" alt="telephone icon">
-        <p>+420 000 000 000</p>
-      </div>
-      <div class="address">
-        <img src="./public/location.png" alt="location icon">
-        <p>
-          Na Plzeňce 1166/0
-          150 00
-        </p>
+        <div class="tel">
+          <img src="./public/telephone.png" alt="telephone icon">
+          <p>+420 000 000 000</p>
+        </div>
+        <div class="address">
+          <img src="./public/location.png" alt="location icon">
+          <p>
+            Na Plzeňce 1166/0
+            150 00
+          </p>
+        </div>
       </div>
     </div>
   </footer>
