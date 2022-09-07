@@ -23,9 +23,10 @@ body {
   font-family: Inter, sans-serif;
   font-size: 30px;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1470px;
   background: #222021;
   color: white; /* del */
+  padding: 0 15px;
 }
 
 h1 {
@@ -58,11 +59,13 @@ figure {
 }
 
 .container {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 1520px;
+  max-width: 1470px;
+  padding: 0 115px;
 }
 
 .main {
@@ -80,7 +83,6 @@ figure {
   max-width: 1720px;
   display: flex;
   padding-left: 200px;
-  filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
 }
 
 .big-section_left {
@@ -88,7 +90,7 @@ figure {
   padding-right: 100px;
 }
 
-.section-container {
+.section-brown-bg {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -96,6 +98,8 @@ figure {
   border-radius: 43px 0px 0px 43px;
   padding-left: 50px;
   padding-bottom: 100px;
+  filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+  margin-bottom: 200px;
 }
 
 .section-container_left {
@@ -147,7 +151,22 @@ figure {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  padding: 0 150px 0 100px;
+}
+
+.advantages-content__text {
+  max-width: 390px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+}
+
+.advantages-content__text p {
+  margin-top: 0;
 }
 
 .about-us {
@@ -220,6 +239,12 @@ figure {
   border-radius: 42px;
   background: #728BAD;
   color: #F5F5F5;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 .btn_advantages {
